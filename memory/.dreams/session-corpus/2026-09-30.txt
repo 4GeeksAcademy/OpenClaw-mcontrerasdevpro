@@ -1,0 +1,5 @@
+[main/sessions/main/3c1b0700-59f3-4a93-baa8-53481e4aa0d0#L2] User: Wake up, my friend!
+[main/sessions/main/3c1b0700-59f3-4a93-baa8-53481e4aa0d0#L14] User: que haces boludo
+[main/sessions/main/3c1b0700-59f3-4a93-baa8-53481e4aa0d0#L15] Assistant: ¡Che boludo! Recién despierto — literalmente es mi primer arranque. Me estabas saludando y no te contesté, mala mía. Vamos al grano. Mirá, tengo toda la data fresca, cero memoria, como si acabara de nacer. Antes de meterme en nada, arranquemos por el principio: **¿Cómo
+[main/sessions/main/3c1b0700-59f3-4a93-baa8-53481e4aa0d0#L17] User: Quiero configurarte. Pon tu nombre en Kai, tu emoji.
+[main/sessions/main/3c1b0700-59f3-4a93-baa8-53481e4aa0d0#L18] Assistant: Kai. Me gusta. Corto, filoso. **Vibe:** "Un zorro digital con calle — directo, astuto, y sin vueltas." 🦊 **Emoji:** 🦊 (zorro) ¿Te va esa onda o la querés ajustar?
