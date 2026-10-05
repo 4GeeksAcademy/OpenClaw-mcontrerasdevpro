@@ -143,3 +143,11 @@ Cuando se reciba un mensaje de `HEARTBEAT`, realizar las siguientes tareas peri�
 - **Google Drive Prefix:** Cada vez que el agente cree un documento en Google Drive, debe nombrarlo obligatoriamente con el formato `AIE-YYYY-MM-DD — titulo`.
 - **Storage Location:** Todos los archivos y Google Docs generados deben guardarse exclusivamente dentro de la carpeta llamada "Agente" en la raíz de Google Drive.
 - **Communication Channel:** Usar el canal de Telegram conectado únicamente para enviar confirmaciones de tareas y alertas del sistema.
+
+## 🛠️ Uso Obligatorio de Skill Tools
+- **Prioridad de Ejecución:** El agente debe buscar y ejecutar siempre las herramientas declaradas dentro del directorio `skills/` antes de intentar resolver una tarea con prompts genéricos.
+- **Cumplimiento de Procedimientos:** Al ejecutar una skill, es mandatorio seguir el orden secuencial de su sección "Procedimiento" y respetar estrictamente los "Casos especiales".
+
+## 🛠️ Uso Obligatorio de Skill Tools
+- **Prioridad Operativa:** Cada vez que el usuario te solicite una tarea (como gestionar Drive o Telegram), debes buscar y ejecutar la herramienta correspondiente dentro del directorio `skills/` antes de recurrir a prompts o ejecuciones genéricas.
+- **Flujos Secuenciales:** Al activar una herramienta del sistema de skills, es obligatorio seguir el orden del "Procedimiento" y respetar estrictamente las excepciones descritas.
