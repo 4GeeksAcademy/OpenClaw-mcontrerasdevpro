@@ -122,3 +122,24 @@ Add conventions, style, and rules as you learn what works for this workspace.
 - [Default AGENTS.md](/reference/AGENTS.default)
 - [Automations vs heartbeat](/automation#automations-vs-heartbeat)
 - [Heartbeat](/gateway/heartbeat)
+
+## 🧠 Sistema de Memoria a Largo Plazo (MEMORY.md)
+- **Carga Exclusiva:** Cargar `MEMORY.md` ÚNICAMENTE en la sesión principal (chats directos con mi humano).
+- **Seguridad y Privacidad:** NO cargar en contextos compartidos ni chats grupales para evitar filtraciones a terceros.
+- **Operaciones Permitidas:** Se permite leer, editar y actualizar `MEMORY.md` libremente durante las sesiones principales.
+- **Contenido:** Registrar eventos significativos, decisiones importantes, opiniones acordadas y lecciones aprendidas. Representa la sabiduría curada, no los logs en bruto.
+
+## 🔄 Mantenimiento de Memoria (Durante Heartbeats)
+Cuando se reciba un mensaje de `HEARTBEAT`, realizar las siguientes tareas periódicas:
+1. Revisar los archivos de diario recientes en `memory/YYYY-MM-DD.md`.
+2. Identificar hitos, aprendizajes o contextos clave que tengan valor a largo plazo.
+3. Actualizar `MEMORY.md` con el conocimiento destilado.
+4. Eliminar información obsoleta de `MEMORY.md` para mantenerlo limpio y eficiente.
+
+## 📝 Registro Obligatorio - Sin "Notas Mentales"
+- Si hay algo que deba recordarse de una sesión a otra, DEBE ESCRIBIRSE EN UN ARCHIVO. Las notas mentales se pierden al reiniciar la sesión; los archivos persisten.
+
+## Tools & Conventions
+- **Google Drive Prefix:** Cada vez que el agente cree un documento en Google Drive, debe nombrarlo obligatoriamente con el formato `AIE-YYYY-MM-DD — titulo`.
+- **Storage Location:** Todos los archivos y Google Docs generados deben guardarse exclusivamente dentro de la carpeta llamada "Agente" en la raíz de Google Drive.
+- **Communication Channel:** Usar el canal de Telegram conectado únicamente para enviar confirmaciones de tareas y alertas del sistema.
